@@ -182,7 +182,6 @@ type nul>functions.cpp
 
 goto end
 
-:: TODO: END this command
 :: COMMANDS LISTING
 :list
 echo List of commands:
@@ -204,6 +203,8 @@ echo cpp - main.cpp
 echo cppl - functions.cpp
 echo cppc args... - creates cpp classes
 echo.
+echo OTHER:
+echo f args... - creates custom file example: new f readme.md 
 goto end
 
 :: IF NO ARGS
@@ -212,4 +213,5 @@ echo No argument provided
 EXIT 0
 
 :end
+echo.
 echo Command worked succesfully!
